@@ -1,3 +1,4 @@
+<div class="result">
 <h1>Result</h1>
 <% if @valid_grid != true %>
   <p>Sorry but <strong><%= @params[:word] %></strong> can't be built out of <%= params[:letters] %></p>
@@ -7,3 +8,4 @@
   <p><strong>Congratulations!</strong> <%= @params[:word] %> is a valid English word!</p>
 <% end %>
 <%= link_to 'Play Again', "/" %>
+</div>

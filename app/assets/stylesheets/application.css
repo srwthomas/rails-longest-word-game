@@ -13,6 +13,16 @@
  *= require_tree .
  *= require_self
  */
+ .game {
+  text-align: center;
+  margin-left: 13.5em;
+ }
+
+ .result {
+  text-align: center;
+  margin-left: 13.5em;
+ }
+
  .letter-box {
   background-color: rgb(103, 194, 255);
   box-shadow: 1px 1px 4px rgba(1, 1, 7, 0.3);
