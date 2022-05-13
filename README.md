@@ -1,7 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails longest word game
+
+- A page to display the game settings (random letters), with a form for the user to type a word. A button to submit this form.
+- A page receiving this form, computing the user score and displaying it.
 
 Things you may want to cover:
 
